@@ -1,0 +1,174 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C4A9CD690FEF1EE20039244F /* localVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localVideo.h; sourceTree = "<group>"; };
+		C4A9CD6A0FEF1EE20039244F /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = localVideo.cpp; sourceTree = "<group>"; };
+		C4A9CD6E0FEF1EE20039244F /* vdigGrab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdigGrab.cpp; sourceTree = "<group>"; };
+		C4A9CD6F0FEF1EE20039244F /* vdigGrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdigGrab.h; sourceTree = "<group>"; };
+		C4A9CD700FEF1EE20039244F /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		C4F46B3B10093971000777EB /* localVideoServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = localVideoServer.cpp; sourceTree = "<group>"; };
+		C4FA0072104DEB3000D44459 /* localVideoServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localVideoServer.h; sourceTree = "<group>"; };
+		F704E38118BAF29400D42C8A /* localCapture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = localCapture.hpp; sourceTree = "<group>"; };
+		F704E38218BAF29400D42C8A /* localCapture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = localCapture.mm; sourceTree = "<group>"; };
+		F704E38318BAF29400D42C8A /* localCaptureWrapper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = localCaptureWrapper.hpp; sourceTree = "<group>"; };
+		F704E38418BAF29400D42C8A /* localCaptureWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = localCaptureWrapper.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* localVideoLib */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9CD690FEF1EE20039244F /* localVideo.h */,
+				C4A9CD6A0FEF1EE20039244F /* Makefile */,
+				C4A9CD6B0FEF1EE20039244F /* srcMac */,
+				C4A9CD700FEF1EE20039244F /* test.c */,
+			);
+			name = localVideoLib;
+			sourceTree = "<group>";
+		};
+		C4A9CD6B0FEF1EE20039244F /* srcMac */ = {
+			isa = PBXGroup;
+			children = (
+				F704E38118BAF29400D42C8A /* localCapture.hpp */,
+				F704E38218BAF29400D42C8A /* localCapture.mm */,
+				F704E38318BAF29400D42C8A /* localCaptureWrapper.hpp */,
+				F704E38418BAF29400D42C8A /* localCaptureWrapper.mm */,
+				C4FA0072104DEB3000D44459 /* localVideoServer.h */,
+				C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */,
+				C4F46B3B10093971000777EB /* localVideoServer.cpp */,
+				C4A9CD6E0FEF1EE20039244F /* vdigGrab.cpp */,
+				C4A9CD6F0FEF1EE20039244F /* vdigGrab.h */,
+			);
+			path = srcMac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D28A88AD04BDD90700651E21 /* localVideoLib */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 1DEB918F08733D9F0010E9CD /* Build configuration list for PBXLegacyTarget "localVideoLib" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = localVideoLib;
+			passBuildSettingsInEnvironment = 1;
+			productName = localVideoLib;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "localVideoLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* localVideoLib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28A88AD04BDD90700651E21 /* localVideoLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB919008733D9F0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FFMPEG_UNIXDIR = ../ffmpegMac;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = localVideoLib;
+				SDKROOT = macosx10.7;
+				VIDEOLIB_UNIXDIR = ../videoLib;
+			};
+			name = Debug;
+		};
+		1DEB919108733D9F0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FFMPEG_UNIXDIR = ../ffmpegMac;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = localVideoLib;
+				SDKROOT = macosx10.7;
+				VIDEOLIB_UNIXDIR = ../videoLib;
+			};
+			name = Release;
+		};
+		1DEB919408733D9F0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		1DEB919508733D9F0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PREBINDING = NO;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB918F08733D9F0010E9CD /* Build configuration list for PBXLegacyTarget "localVideoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB919008733D9F0010E9CD /* Debug */,
+				1DEB919108733D9F0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB919308733D9F0010E9CD /* Build configuration list for PBXProject "localVideoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB919408733D9F0010E9CD /* Debug */,
+				1DEB919508733D9F0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

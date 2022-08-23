@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = C4FA01DE104F494900D44459 /* test */;
+		activeTarget = D28A88AD04BDD90700651E21 /* localVideoLib */;
+		breakpoints = (
+			C40B15D11060162F00D06980 /* localVideo.cpp:93 */,
+			C40B15E0106016E800D06980 /* localVideoServer.cpp:554 */,
+			C40B166E1060367900D06980 /* test.c:99 */,
+		);
+		codeSenseManager = C4FA01AB104EF95600D44459 /* Code sense */;
+		executables = (
+			C4FA01DE104F494900D44459 /* test */,
+		);
+		expressions = (
+			pfdIn,
+			"&data",
+			"((getPixelsParamsT*)gMapAddr)",
+			gMapAddr,
+			deviceNames,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					277,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					324.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					437,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					451,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					397,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 276034945;
+			PBXWorkspaceStateSaveDate = 276034945;
+		};
+		perUserProjectItems = {
+			C40B1145105D5C2A00D06980 /* PBXTextBookmark */ = C40B1145105D5C2A00D06980 /* PBXTextBookmark */;
+			C40B14D9105EFE4200D06980 /* PBXTextBookmark */ = C40B14D9105EFE4200D06980 /* PBXTextBookmark */;
+			C40B15D51060168300D06980 /* PBXTextBookmark */ = C40B15D51060168300D06980 /* PBXTextBookmark */;
+			C4693CB410685595009B0850 /* PBXTextBookmark */ = C4693CB410685595009B0850 /* PBXTextBookmark */;
+			C4693D0310685F5A009B0850 /* PBXTextBookmark */ = C4693D0310685F5A009B0850 /* PBXTextBookmark */;
+			C4693D1210685FBA009B0850 /* PBXTextBookmark */ = C4693D1210685FBA009B0850 /* PBXTextBookmark */;
+			C482B6BD1073F57B006B5E57 /* PBXTextBookmark */ = C482B6BD1073F57B006B5E57 /* PBXTextBookmark */;
+			C4FA01BF104F48A700D44459 /* PBXTextBookmark */ = C4FA01BF104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C1104F48A700D44459 /* PBXTextBookmark */ = C4FA01C1104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C2104F48A700D44459 /* PBXTextBookmark */ = C4FA01C2104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C3104F48A700D44459 /* PBXTextBookmark */ = C4FA01C3104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C4104F48A700D44459 /* PBXTextBookmark */ = C4FA01C4104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C5104F48A700D44459 /* PBXTextBookmark */ = C4FA01C5104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C6104F48A700D44459 /* PBXTextBookmark */ = C4FA01C6104F48A700D44459 /* PBXTextBookmark */;
+			C4FA01C7104F48A700D44459 /* PBXTextBookmark */ = C4FA01C7104F48A700D44459 /* PBXTextBookmark */;
+			C4FA058610595FCE00D44459 /* PBXTextBookmark */ = C4FA058610595FCE00D44459 /* PBXTextBookmark */;
+			C4FCB89F1073F58B004BF688 /* PBXTextBookmark */ = C4FCB89F1073F58B004BF688 /* PBXTextBookmark */;
+		};
+		sourceControlManager = C4FA01AA104EF95600D44459 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	C40B1145105D5C2A00D06980 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6E0FEF1EE20039244F /* vdigGrab.cpp */;
+		name = "vdigGrab.cpp: 1018";
+		rLen = 6;
+		rLoc = 28769;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 27479;
+	};
+	C40B14D9105EFE4200D06980 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FA060F10596FBA00D44459 /* localVideoServer.cpp */;
+		name = "localVideoServer.cpp: 451";
+		rLen = 0;
+		rLoc = 1546;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 11027;
+	};
+	C40B15D11060162F00D06980 /* localVideo.cpp:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */;
+		functionName = "startServer(int* pid, const char* dataDir)";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 93;
+		location = localVideoLib.dylib;
+		modificationTime = 276030969.881075;
+		state = 1;
+	};
+	C40B15D51060168300D06980 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6A0FEF1EE20039244F /* Makefile */;
+		name = "Makefile: 46";
+		rLen = 0;
+		rLoc = 1574;
+		rType = 0;
+		vrLen = 1534;
+		vrLoc = 200;
+	};
+	C40B15E0106016E800D06980 /* localVideoServer.cpp:554 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C4F46B3B10093971000777EB /* localVideoServer.cpp */;
+		functionName = "main(int argc, char** argv)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 554;
+		modificationTime = 276030969.880981;
+		state = 1;
+	};
+	C40B166C1060367900D06980 /* test.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = test.c;
+		path = /Users/bob/Work/Projects/smartvideo/localVideoLib/test.c;
+		sourceTree = "<group>";
+	};
+	C40B166E1060367900D06980 /* test.c:99 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = C40B166C1060367900D06980 /* test.c */;
+		functionName = "testLocalVideoLib()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 99;
+		location = test;
+		modificationTime = 276030969.881283;
+		state = 1;
+	};
+	C4693CB410685595009B0850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FA0529105894A000D44459 /* localVideoServer.h */;
+		name = "localVideoServer.h: 17";
+		rLen = 0;
+		rLoc = 512;
+		rType = 0;
+		vrLen = 1324;
+		vrLoc = 0;
+	};
+	C4693D0310685F5A009B0850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C40B166C1060367900D06980 /* test.c */;
+		name = "test.c: 66";
+		rLen = 0;
+		rLoc = 2062;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 1431;
+	};
+	C4693D1210685FBA009B0850 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6F0FEF1EE20039244F /* vdigGrab.h */;
+		name = "vdigGrab.h: 13";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 0;
+	};
+	C482B6BD1073F57B006B5E57 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */;
+		name = "localVideo.cpp: 37";
+		rLen = 0;
+		rLoc = 1120;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 819;
+	};
+	C4A9CD690FEF1EE20039244F /* localVideo.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {537, 1372}}";
+			sepNavSelRange = "{653, 0}";
+			sepNavVisRange = "{0, 2228}";
+			sepNavWindowFrame = "{{1102, 156}, {596, 895}}";
+		};
+	};
+	C4A9CD6A0FEF1EE20039244F /* Makefile */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {696, 1302}}";
+			sepNavSelRange = "{1574, 0}";
+			sepNavVisRange = "{200, 1534}";
+		};
+	};
+	C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {615, 7392}}";
+			sepNavSelRange = "{1131, 0}";
+			sepNavVisRange = "{819, 1046}";
+			sepNavWindowFrame = "{{714, 242}, {589, 874}}";
+		};
+	};
+	C4A9CD6E0FEF1EE20039244F /* vdigGrab.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {717, 14364}}";
+			sepNavSelRange = "{2377, 8}";
+			sepNavVisRange = "{1628, 1105}";
+		};
+	};
+	C4A9CD6F0FEF1EE20039244F /* vdigGrab.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {615, 1666}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{0, 1510}";
+		};
+	};
+	C4A9CD700FEF1EE20039244F /* test.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {498, 3192}}";
+			sepNavSelRange = "{34, 1}";
+			sepNavVisRange = "{0, 1861}";
+			sepNavWindowFrame = "{{52, 299}, {547, 874}}";
+		};
+	};
+	C4F46B3B10093971000777EB /* localVideoServer.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {795, 8148}}";
+			sepNavSelRange = "{1428, 0}";
+			sepNavVisRange = "{0, 1875}";
+			sepNavWindowFrame = "{{-32, 59}, {564, 1119}}";
+		};
+	};
+	C4FA0072104DEB3000D44459 /* localVideoServer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {488, 1736}}";
+			sepNavSelRange = "{1426, 0}";
+			sepNavVisRange = "{0, 1800}";
+			sepNavWindowFrame = "{{1048, 176}, {547, 1002}}";
+		};
+	};
+	C4FA01AA104EF95600D44459 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	C4FA01AB104EF95600D44459 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C4FA01BF104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD690FEF1EE20039244F /* localVideo.h */;
+		name = "localVideo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1571;
+		vrLoc = 0;
+	};
+	C4FA01C1104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6F0FEF1EE20039244F /* vdigGrab.h */;
+		name = "vdigGrab.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1562;
+		vrLoc = 0;
+	};
+	C4FA01C2104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6E0FEF1EE20039244F /* vdigGrab.cpp */;
+		name = "vdigGrab.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1656;
+		vrLoc = 0;
+	};
+	C4FA01C3104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */;
+		name = "localVideo.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 0;
+	};
+	C4FA01C4104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4FA0072104DEB3000D44459 /* localVideoServer.h */;
+		name = "localVideoServer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 0;
+	};
+	C4FA01C5104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4F46B3B10093971000777EB /* localVideoServer.cpp */;
+		name = "localVideoServer.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1503;
+		vrLoc = 0;
+	};
+	C4FA01C6104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6A0FEF1EE20039244F /* Makefile */;
+		name = "Makefile: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 0;
+	};
+	C4FA01C7104F48A700D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD690FEF1EE20039244F /* localVideo.h */;
+		name = "localVideo.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1571;
+		vrLoc = 0;
+	};
+	C4FA01DE104F494900D44459 /* test */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			0,
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = C4FA01DF104F494900D44459 /* test */;
+		libgmallocEnabled = 0;
+		name = test;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+			"vi-CVideoInputP-VI_setupDevice" = 2;
+		};
+	};
+	C4FA01DF104F494900D44459 /* test */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = "compiled.mach-o.executable";
+		path = test;
+		sourceTree = "<group>";
+	};
+	C4FA0529105894A000D44459 /* localVideoServer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = localVideoServer.h;
+		path = /Users/bob/Work/Projects/smartvideo/localVideoLib/srcMac/localVideoServer.h;
+		sourceTree = "<absolute>";
+	};
+	C4FA058610595FCE00D44459 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD700FEF1EE20039244F /* test.c */;
+		name = "test.c: 87";
+		rLen = 0;
+		rLoc = 1930;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 2241;
+	};
+	C4FA060F10596FBA00D44459 /* localVideoServer.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = localVideoServer.cpp;
+		path = /Users/bob/Work/Projects/smartvideo/localVideoLib/srcMac/localVideoServer.cpp;
+		sourceTree = "<group>";
+	};
+	C4FCB89F1073F58B004BF688 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C4A9CD6C0FEF1EE20039244F /* localVideo.cpp */;
+		name = "localVideo.cpp: 37";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 1046;
+		vrLoc = 819;
+	};
+	D28A88AD04BDD90700651E21 /* localVideoLib */ = {
+		activeExec = 0;
+	};
+}

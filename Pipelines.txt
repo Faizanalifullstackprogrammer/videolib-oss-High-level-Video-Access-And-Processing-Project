@@ -1,0 +1,79 @@
+=============================== Live pipeline ==========================================
+
+--------------
+|            | live555 for rtsp, localVideolib for webcam, ffmpeg for all the others
+|   Demux    |
+|            |
+--------------
+	|
+	V
+--------------
+|            |  Exists only remuxed profile, and only if fast start is enabled
+|   HLS      | 	Subpipeline: [ splitter ] -> [ recorder ]
+|            |
+--------------
+	|
+	V
+--------------
+|            |  Exists only for H264 source, which is the most common case
+| Recorder   |  Subpipeline: [ splitter ] -> [ recorder ]
+|            |
+--------------
+	|
+	V
+--------------
+|            |  Exists almost always, with the exception of webcam case, where RGB frames are received directly
+| Decoder    |
+|            |
+--------------
+	|
+	V
+--------------
+|            |  Very rare: only for non-H264 source, such as webcam, mjpeg, mpeg4
+| Recorder   |  Subpipeline: [ splitter ] -> [ resize ] -> [ audioEncoder ] -> [ videoEncoder ] -> [ recorder ]
+|            |
+--------------
+	|
+	V
+--------------
+|            | Resized and encoded streams, only exists if fast start is enabled
+| HLS        | Subpipeline: [ splitter ] -> [ fpslimit ] -> [ resize ] -> [ encode ] -> [ jitbuf ] -> [ hlsRecorder ]
+|            |
+--------------
+	|
+	V
+--------------
+|            | Consumes and queues frames, limits fps to 10
+|Thread conn.|
+|            |
+--------------
+	|
+	V
+---------------
+|             | Converting to RGB
+| Color space |
+|             |
+---------------
+	|
+	V
+--------------
+|            | Resizing to 240p *and* changing color space to RGB
+| Resize     |
+|            |
+--------------
+	|
+	V
+--------------
+|            | Memory map for live view in native UI. Here, when size < 240p and low fps are requested.
+|            | For size > 240p in front of thread conn (expensive)
+|            | For > 10 fps after decoder (very expensive)
+| MMAP       | Subpipeline: [ splitter ] -> [ fpsLimit ] -> [ resize+colorSpace ] -> [ mmap ]
+|            |
+--------------
+	|
+	V
+--------------
+|            | Assists with synchronizing current file name to the frame going to analytics - considering decoding delay
+|RecorderSync|
+|            |
+--------------
